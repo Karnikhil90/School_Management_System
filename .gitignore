@@ -1,6 +1,1 @@
-__pycache__/
-DEBUGER/
-test/
-venv/
-.pytest_cache/
-*.pyc
+__pycache__
