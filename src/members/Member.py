@@ -70,14 +70,14 @@ class NonTeachingStaff(Person):
         return f"{super().__str__()}, Employee ID: {self.employee_id}, Role: {self.role}, Salary: {self.salary}"
 
 
-# Utility functions
-def create_student(name: str, dob: date, admit_id: str, grade: str) -> Student:
-    return Student(name, dob, admit_id, grade)
+# Example functions 
+# def create_student(name: str, dob: date, admit_id: str, grade: str) -> Student:
+#     return Student(name, dob, admit_id, grade)
 
 
-def create_teacher(name: str, dob: date, employee_id: str, subject: str, salary: float) -> Teacher:
-    return Teacher(name, dob, employee_id, subject, salary)
+# def create_teacher(name: str, dob: date, employee_id: str, subject: str, salary: float) -> Teacher:
+#     return Teacher(name, dob, employee_id, subject, salary)
 
 
-def create_non_teaching_staff(name: str, dob: date, employee_id: str, role: str, salary: float) -> NonTeachingStaff:
-    return NonTeachingStaff(name, dob, employee_id, role, salary)
+# def create_non_teaching_staff(name: str, dob: date, employee_id: str, role: str, salary: float) -> NonTeachingStaff:
+#     return NonTeachingStaff(name, dob, employee_id, role, salary)
